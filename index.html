@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PPQCheck Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>PPQCheck Clone</h1>
+    <p class="subtitle">Fast • Secure • Reliable</p>
+
+    <form id="form">
+        <label>Mobileprovision file:</label>
+        <input type="file" name="mobileprovision" accept=".mobileprovision" required>
+
+        <label>P12 Certificate:</label>
+        <input type="file" name="p12" accept=".p12" required>
+
+        <label>Password:</label>
+        <input type="password" name="password" required>
+
+        <button type="submit">Validate & Process</button>
+    </form>
+
+    <p id="status"></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
