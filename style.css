@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    padding: 40px;
+}
+.container {
+    max-width: 450px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+}
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.subtitle {
+    color: #777;
+    margin-bottom: 20px;
+}
