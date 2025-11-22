@@ -1,0 +1,11 @@
+{
+  "name": "ppqcheck-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": { "start": "node app.js" },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
